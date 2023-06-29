@@ -58,7 +58,7 @@ docker --version && docker-compose --version
 1. Клонируйте репозиторий с GitHub и введите данные для переменных окружения (значения даны для примера, но их можно оставить):
 ```bash
 git clone https://github.com/T1mBul/Derbit-aiohttp-fastapi.git && \
-cd crypto-FastAPI && \
+cd Derbit-aiohttp-fastapi && \
 cp .env .env && \
 nano .env
 ```
@@ -82,5 +82,5 @@ docker compose -f infra/local/docker-compose.yml down -v
 ## Удаление:
 Из корневой директории проекта выполните команду:
 ```bash
-cd .. && rm -fr crypto-FastAPI
+cd .. && rm -fr Derbit-aiohttp-fastapi
 ```
